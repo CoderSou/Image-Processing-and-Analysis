@@ -26,3 +26,4 @@ median_img = vsg('Median',gray1);
 h=figure; 
 imshow(uint8(median_img)); 
 set(h,'Name','Median image');
+
