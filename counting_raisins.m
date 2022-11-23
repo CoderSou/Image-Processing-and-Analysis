@@ -9,7 +9,7 @@ h=figure;subplot(3,3,1); imshow(uint8(img)); title('Original Image');
 grey = rgb2gray(img);
 subplot(3,3,2);imshow(uint8(grey)); title('Greyscsale Image');
 
-%data driven threshold
+%Data driven threshold
 high_grey = vsg('HighestGrey',grey);
 low_grey = vsg('LowestGrey',grey);
 thresh = uint8((high_grey + low_grey)/2);
