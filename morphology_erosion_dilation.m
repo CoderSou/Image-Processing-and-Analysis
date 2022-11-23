@@ -1,4 +1,3 @@
-
 clc; %Clear command window
 clear all; %Clear all variables and functions from memory
 
